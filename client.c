@@ -25,5 +25,6 @@ int main(int argc, char **argv) {
     send(sock,"BUmyYq5XxXGt\n",13,0);
     send(sock,"u^v\n",4,0);
     send(sock,"chin_chu_lan_cha\n",17,0);
-    send(sock,"gdbme\n",6,0);
+    send(sock,"gdb_rules\n",10,0);
+    send(sock,"normal\n",8,0);
 }
