@@ -23,5 +23,7 @@ int main(int argc, char **argv) {
     send(sock,".RUN_ME\n",8,0);
     send(sock,"K5n2UFfpFMUN\n",13,0);
     send(sock,"BUmyYq5XxXGt\n",13,0);
-    send(sock,"",,0);
+    send(sock,"u^v\n",4,0);
+    send(sock,"chin_chu_lan_cha\n",17,0);
+    send(sock,"gdbme\n",6,0);
 }
