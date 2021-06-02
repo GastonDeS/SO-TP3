@@ -19,4 +19,5 @@ int main(int argc, char **argv) {
     send(sock,"itba\n",5,0);
     send(sock,"M4GFKZ289aku\n",13,0);
     send(sock,"fk3wfLCm3QvS\n",13,0);
+    send(sock,"too_easy\n",9,0);
 }
