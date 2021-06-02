@@ -21,5 +21,7 @@ int main(int argc, char **argv) {
     send(sock,"fk3wfLCm3QvS\n",13,0);
     send(sock,"too_easy\n",9,0);
     send(sock,".RUN_ME\n",8,0);
-    
+    send(sock,"K5n2UFfpFMUN\n",13,0);
+    send(sock,"BUmyYq5XxXGt\n",13,0);
+    send(sock,"",,0);
 }
