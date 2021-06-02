@@ -14,5 +14,6 @@ int main(int argc, char **argv) {
     inet_pton(AF_INET, "0.0.0.0", &serv_addr.sin_addr);
     connect(sock, (struct sockaddr *)&serv_addr, sizeof(serv_addr));
     send(sock , hello , strlen(hello) , 0 );
-    send(sock,"ITBA",14,0);
+    send(sock,"itba\n",5,0);
+    send(sock,"M4GFKZ289aku\n",13,0);
 }
